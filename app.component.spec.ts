@@ -20,16 +20,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'sahithi-app'`, () => {
+  it(`should have as title 'JsonExample'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.debugElement.componentInstance;
-    expect(app.title).toEqual('sahithi-app');
+    expect(app.title).toEqual('JsonExample');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.debugElement.nativeElement;
-    expect(compiled.querySelector('.content span').textContent).toContain('sahithi-app app is running!');
+    expect(compiled.querySelector('.content span').textContent).toContain('JsonExample app is running!');
   });
 });
