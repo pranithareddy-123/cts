@@ -4,9 +4,11 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
- <title>Railway Registration Form</title>  
+<title>Insert title here</title>
 </head>
 <body>
-<a href="reservation/bookingForm">Click here for reservation.</a>  
+<p>Your reservation is confirmed successfully. Please, re-check the details.</p>  
+First Name : ${reservation.firstName} <br>  
+Last Name : ${reservation.lastName}  
 </body>
 </html>
